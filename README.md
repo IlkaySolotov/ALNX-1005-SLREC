@@ -1,5 +1,5 @@
 # ALNX-1005-SLREC
-Slui Handler Hijack
+UAC-Bypass Exploiting(Hijack) SLUI Handles
 
 ```yaml
 TargetOS: Win10
