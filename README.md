@@ -1,4 +1,24 @@
-# Windows-Registry-Exploit
+# ALNX-1005-SLREC
 Slui Handler Hijack
 
-default payload is cmd.exe, no need to explain how does this work, because if you dont know then you shouldn't be using it
+```yaml
+TargetOS: Win10
+TestedOn: 2004 SO 19041.685
+Payload: Bin/Dir-Payload
+Language: C++
+Patch: n/a
+Danger: 9
+Classification: ALNX-1005-SLREC
+```
+
+**_Build_**
+```
+HKEY_CURRENT_USER
+  Software
+    Classes
+      exefile
+        shell
+          open
+             command
+              @=Payload
+```
